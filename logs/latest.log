@@ -1,0 +1,18 @@
+[20:43:23] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[20:43:23] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: The handle is invalid
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_31]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_31]
+	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_31]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_31]
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_31]
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_31]
+	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_31]
+	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_31]
+	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_31]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_31]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_31]
+	at net.minecraft.server.dedicated.DedicatedServer$2.run(DedicatedServer.java:97) [lv.class:?]
+[20:43:23] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+[20:51:20] [Server thread/ERROR]: Encountered an unexpected exception
+java.lang.OutOfMemoryError: Java heap space

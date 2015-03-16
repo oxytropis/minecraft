@@ -1,0 +1,2 @@
+Error: missing `server' JVM at `C:\Program Files (x86)\Java\jre1.8.0_31\bin\server\jvm.dll'.
+Please install or use the JRE or JDK that contains these missing components.
